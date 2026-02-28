@@ -1,0 +1,59 @@
+/* Cor gradiente do fundo da tela */
+.background{
+    background: linear-gradient(to right, #3722bb , #828eff);
+
+}
+
+/* Colocando cor do header */
+header{
+    background: white;
+}
+
+.container{
+   /* background: red; */
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   height: calc(100vh - 120px);
+   align-items: center;
+   gap: 15px;
+
+}
+
+.form_box{
+    /* background: rgb(255, 255, 255); */
+    height: 100%;
+    width: 50%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.img{
+    /* background: white; */
+    height: 500px;
+    width: 50%;
+    background: url(../img/Img_login.png);
+    background-size:contain;
+    background-position: left;
+    background-repeat:no-repeat;
+}
+
+.form{
+    height: 700px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.titulo_form{
+    border-top: #3722bb 2px solid;
+    border-bottom: #3722bb 2px solid;
+    height: 45px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
