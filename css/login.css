@@ -46,8 +46,10 @@ header{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 50px;
+    gap:10px;
+    align-items: center;
 }
 
 .titulo_form{
@@ -56,4 +58,44 @@ header{
     height: 45px;
     padding-left: 10px ;
     padding-right: 10px ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.infor{
+    height: 50px;
+    width: 500px;
+    margin-right: 1%;
+    border-radius: 8px;
+    border: none;
+    background-color: #edf1ff;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text{
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.cadastro{
+    margin-left: auto;
+}
+
+.cadastro a{
+    margin-left: auto;
+    border-bottom: blue solid 1px;
+}
+
+.color_button{
+    height: 50px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+    background-color: #86a1ff;
+    font-size: 25px;
+    margin-top: 150px;
+    cursor: pointer;
 }
